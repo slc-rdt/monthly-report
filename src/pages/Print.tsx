@@ -1,6 +1,7 @@
 import { Grid, Stack } from '@mui/material';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useRecoilValue } from 'recoil';
+import binusImg from '../assets/binus.png';
 import formState from '../atoms/formState';
 import '../styles/print.css';
 
@@ -12,7 +13,7 @@ const Print = () => {
   return (
     <Stack spacing={2}>
       <Stack direction="row" justifyContent="space-between" alignItems="flex-start">
-        <img style={{ width: 150 }} src="/public/assets/binus.png" alt="Binus Logo" onLoad={printReport} />
+        <img style={{ width: 150 }} src={binusImg} alt="Binus Logo" onLoad={printReport} />
         <p>FM-BINUS-AA-FPT-319/R2</p>
       </Stack>
 
