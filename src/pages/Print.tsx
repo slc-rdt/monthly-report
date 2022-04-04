@@ -12,7 +12,7 @@ const Print = () => {
   return (
     <Stack spacing={2}>
       <Stack direction="row" justifyContent="space-between" alignItems="flex-start">
-        <img style={{ width: 150 }} src="/src/assets/binus.png" alt="Binus Logo" onLoad={printReport} />
+        <img style={{ width: 150 }} src="/public/assets/binus.png" alt="Binus Logo" onLoad={printReport} />
         <p>FM-BINUS-AA-FPT-319/R2</p>
       </Stack>
 
